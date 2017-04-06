@@ -13,7 +13,6 @@ const _messages = [
     authorAvatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/009ca8ac288a2b9a056df6ba035185e18a8287d5.jpg',
     title: 'Title of the message #1',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-    type: 'important',
     read: false
   },
   {
@@ -23,7 +22,6 @@ const _messages = [
     authorAvatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/009cb35003ceae993714d14ef254d747952318b6.jpg',
     title: 'Here comes the very long title of the message #2 which should span on multiple lines',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-    type: 'info',
     read: false
   },
   {
@@ -33,7 +31,6 @@ const _messages = [
     authorAvatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/009cdfa72175f6c734f50690b49377b6484358b1.jpg',
     title: 'Title of the message #3',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-    type: '',
     read: true
   },
   {
@@ -43,7 +40,6 @@ const _messages = [
     authorAvatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/009ca8ac288a2b9a056df6ba035185e18a8287d5.jpg',
     title: 'Title of the message #4',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-    type: 'important',
     read: true
   },
   {
@@ -53,7 +49,6 @@ const _messages = [
     authorAvatar: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/009cb35003ceae993714d14ef254d747952318b6.jpg',
     title: 'Here comes the very long title of the message #5 which should span on multiple lines',
     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-    type: 'info',
     read: true
   }
 ]

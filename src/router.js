@@ -22,7 +22,21 @@ export default new VueRouter({
   mode: 'history', // No more # in the URL
 
   routes: [
-    { path: '/', component: load('Index') }, // Default
+    {
+      path: '/', // Default route
+      component: load('Index'),
+      children: [ // Sub-routes
+        {
+          path: '', // default subroute
+          component: load('Home')
+        },
+        {
+          path: 'messages',
+          component: load('Messages')
+        }
+      ]
+    },
+    { path: '/foo', component: load('Foo') }, // example simple route
     { path: '*', component: load('Error404') } // Not found
   ]
 })
